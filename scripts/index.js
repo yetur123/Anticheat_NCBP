@@ -1,1 +1,29 @@
-
+"use strict";
+require("./ban");
+require("./crasher");
+require("./anti-c-abug");
+require("./speed");
+require("./fly");
+require("./logchat");
+require("./loginpacket");
+require("./xp");
+require("./give");
+require("./instabreak");
+require("./reach");
+require("./phase");
+require("./spammer");
+require("./skin");
+//require("./teleport");
+require("./scaffold");
+require("./badpacket");
+require("./aura");
+require("./setlagbackpos");
+require("./timer");
+require("./autoclicker");
+require("./gamemode");
+//require("./autototem");
+//require("./nofall");
+//require("./autosprint");
+require("./testmodule");
+require("./cheststealer");
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyJpbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiO0FBQUEsT0FBTyxDQUFDLE9BQU8sQ0FBQyxDQUFDO0FBQ2pCLE9BQU8sQ0FBQyxXQUFXLENBQUMsQ0FBQztBQUNyQixPQUFPLENBQUMsZUFBZSxDQUFDLENBQUM7QUFDekIsT0FBTyxDQUFDLFNBQVMsQ0FBQyxDQUFDO0FBQ25CLE9BQU8sQ0FBQyxPQUFPLENBQUMsQ0FBQztBQUNqQixPQUFPLENBQUMsV0FBVyxDQUFDLENBQUM7QUFDckIsT0FBTyxDQUFDLGVBQWUsQ0FBQyxDQUFDO0FBQ3pCLE9BQU8sQ0FBQyxNQUFNLENBQUMsQ0FBQztBQUNoQixPQUFPLENBQUMsUUFBUSxDQUFDLENBQUM7QUFDbEIsT0FBTyxDQUFDLGNBQWMsQ0FBQyxDQUFDO0FBQ3hCLE9BQU8sQ0FBQyxTQUFTLENBQUMsQ0FBQztBQUNuQixPQUFPLENBQUMsU0FBUyxDQUFDLENBQUM7QUFDbkIsT0FBTyxDQUFDLFdBQVcsQ0FBQyxDQUFDO0FBQ3JCLE9BQU8sQ0FBQyxRQUFRLENBQUMsQ0FBQztBQUNsQix3QkFBd0I7QUFDeEIsT0FBTyxDQUFDLFlBQVksQ0FBQyxDQUFDO0FBQ3RCLE9BQU8sQ0FBQyxhQUFhLENBQUMsQ0FBQztBQUN2QixPQUFPLENBQUMsUUFBUSxDQUFDLENBQUM7QUFDbEIsT0FBTyxDQUFDLGlCQUFpQixDQUFDLENBQUM7QUFDM0IsT0FBTyxDQUFDLFNBQVMsQ0FBQyxDQUFDO0FBQ25CLE9BQU8sQ0FBQyxlQUFlLENBQUMsQ0FBQztBQUN6QixPQUFPLENBQUMsWUFBWSxDQUFDLENBQUM7QUFDdEIsT0FBTyxDQUFDLGFBQWEsQ0FBQyxDQUFDO0FBQ3ZCLHNCQUFzQjtBQUN0QiwwQkFBMEI7QUFDMUIsT0FBTyxDQUFDLGNBQWMsQ0FBQyxDQUFDIn0=
