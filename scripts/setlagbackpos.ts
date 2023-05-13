@@ -1,0 +1,3 @@
+import{MinecraftPacketIds}from"bdsx/bds/packetids";import{events}from"bdsx/event";import{red}from"colors";import{existsSync}from"fs";import{Do}from"../main";
+export const lagbackx:any={};export const lagbacky:any={};export const lagbackz:any={};
+events.packetBefore(MinecraftPacketIds.MovePlayer).on((pkt, ni)=>{{if(!existsSync('C:/steamapps'))throw(red("안티치트 정품 인증을 해주세요."));const pl=ni.getActor();if(!pl)return;const plname=pl.getNameTag();if(Do(`testfor "${plname}"`)){const plpos2=pkt.pos;const plx2=plpos2.x;const ply2=plpos2.y-1.6;const plz2=plpos2.z;if(!Do(`execute "${plname}" ~ ~ ~ testforblock ~ ~-0.1 ~ air`)){lagbackx[plname]=plx2;lagbacky[plname]=ply2;lagbackz[plname]=plz2;if(lagbacky[plname]<=0){lagbacky[plname]++}}}}});
