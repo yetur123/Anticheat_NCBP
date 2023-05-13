@@ -1,0 +1,3 @@
+// import "./certificate";
+
+import "./main";

@@ -1,0 +1,14 @@
+{
+  "name": "@bdsx/AntiCheat_NCBP",
+  "version": "0.9.9",
+  "description": "AntiCheat (No Cheat Bedrock Plus)",
+  "main": "index.js",
+  "keywords": [
+    "Anticheat",
+    "Bedrock",
+    "Minecraft"
+  ],
+  "author": "jobgutworlds(job-gut)",
+  "license": "None",
+  "bdsxPlugin": true
+}
